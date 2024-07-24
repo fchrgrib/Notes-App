@@ -16,8 +16,8 @@ Pada aplikasi ini terdapat beberapa algoritma yang difokuskan yaitu algoritma so
 ### Spesifikasi Wajib (2500 Poin)
 Pada tugas kali ini kalian diminta untuk membuat sebuah aplikasi berbasis android yang dapat melakukan CRUD pada catatan. Berikut merupakan spesifikasi lengkapnya:
 1. Aplikasi dapat melakukan CRUD (Create, Read, Update, Delete) pada catatan.
-2. Aplikasi dapat melakukan sorting pada catatan berdasarkan tanggal dibuat (dari yang terbaru ke terlama maupun sebaliknya) dan berdasarkan huruf dengan menggunakan **algoritma sorting** yang kalian pilih (pastinya jangan lewat query doang make ORDER BY :v)
-3. Aplikasi dapat melakukan searching pada catatan berdasarkan judul dengan menggunakan **algoritma string** matching yang kalian pilih (jadi jangan make query doang ya!)
+2. Aplikasi dapat melakukan sorting pada catatan berdasarkan **tanggal dibuat** (dari yang terbaru ke terlama maupun sebaliknya) dan berdasarkan huruf dengan menggunakan **algoritma sorting** yang kalian pilih (pastinya jangan lewat query doang make ORDER BY :v)
+3. Aplikasi dapat melakukan searching pada catatan berdasarkan **judul** dengan menggunakan **algoritma string** matching yang kalian pilih (jadi jangan make query doang ya!)
 4. Aplikasi dapat melakukan import dan export catatan ke dalam format **.xls dan .xlsx**
 5. Aplikasi dapat melakukan filter pada catatan berdasarkan kategori catatan
 6. Aplikasi berbasis android dengan batasan sebagai berikut
