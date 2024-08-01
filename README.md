@@ -23,7 +23,7 @@ Pada tugas kali ini kalian diminta untuk membuat sebuah aplikasi berbasis androi
    - created_at (Terlama)
    - updated_at (Terbaru)
    - updated_at (Terlama)
-3. Aplikasi dapat melakukan searching pada catatan dengan menggunakan **algoritma string** matching yang kalian pilih (jadi jangan make query doang ya!). Hal yang perlu dicari adalah sebagai **Title** dan **Note** dengan prioritas tertinggi ke terendah sebagai berikut:
+3. Aplikasi dapat melakukan searching pada catatan dengan menggunakan **algoritma string matching** yang kalian pilih (jadi jangan make query doang ya!). Hal yang perlu dicari adalah **Title** dan **Note** dengan prioritas tertinggi ke terendah sebagai berikut:
    - Title dan Note
    - Title
    - Note
