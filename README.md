@@ -1,7 +1,7 @@
 # Notes App
 > Task Seleksi Lab IRK created by Fahrian Afdholi
 
-versi **24 Juli 2024**
+versi **01 Agustus 2024**
 
 
 
@@ -16,10 +16,19 @@ Pada aplikasi ini terdapat beberapa algoritma yang difokuskan yaitu algoritma so
 ### Spesifikasi Wajib (2500 Poin)
 Pada tugas kali ini kalian diminta untuk membuat sebuah aplikasi berbasis android yang dapat melakukan CRUD pada catatan. Berikut merupakan spesifikasi lengkapnya:
 1. Aplikasi dapat melakukan CRUD (Create, Read, Update, Delete) pada catatan.
-2. Aplikasi dapat melakukan sorting pada catatan berdasarkan **tanggal dibuat** (dari yang terbaru ke terlama maupun sebaliknya) dan berdasarkan huruf dengan menggunakan **algoritma sorting** yang kalian pilih (pastinya jangan lewat query doang make ORDER BY :v)
-3. Aplikasi dapat melakukan searching pada catatan berdasarkan **judul** dengan menggunakan **algoritma string** matching yang kalian pilih (jadi jangan make query doang ya!)
+2. Aplikasi dapat melakukan opsi sorting pada catatan berdasarkan **title**, **created_at**, dan **updated_at** menggunakan algoritma sorting yang dipilih, dengan prioritas tertinggi ke terendah sebagai berikut:
+   - title (A-Z)
+   - title (Z-A)
+   - created_at (Terbaru)
+   - created_at (Terlama)
+   - updated_at (Terbaru)
+   - updated_at (Terlama)
+3. Aplikasi dapat melakukan searching pada catatan dengan menggunakan **algoritma string** matching yang kalian pilih (jadi jangan make query doang ya!). Hal yang perlu dicari adalah sebagai **Title** dan **Note** dengan prioritas tertinggi ke terendah sebagai berikut:
+   - Title dan Note
+   - Title
+   - Note
 4. Aplikasi dapat melakukan import dan export catatan ke dalam format **.xls dan .xlsx**
-5. Aplikasi dapat melakukan filter pada catatan berdasarkan kategori catatan
+5. Aplikasi dapat melakukan filter pada catatan berdasarkan kategori catatan (pastinya make string matching ya).
 6. Aplikasi berbasis android dengan batasan sebagai berikut
    - programming language: Kotlin
    - minimum API level: 24
@@ -30,10 +39,11 @@ Pada tugas kali ini kalian diminta untuk membuat sebuah aplikasi berbasis androi
    - category
    - created_at
    - updated_at
-8. Buatlah readme yang seminimal minimalnya berisi:
+8. Aplikasi **WAJIB** memiliki page **SETTINGS** untuk melakukan perubahan algoritma sorting dan searching yang digunakan yang dimana algoritma sorting merupakan 2 pilihan algoritma terbaik kalian dan algoritma string matching merupakan KMP dan BM.
+9. Buatlah readme yang seminimal minimalnya berisi:
    - cara penggunaan aplikasi
-   - algoritma sorting yang kalian pilih dan mengapa kalian memilih algoritma tersebut
-   - algoritma string matching yang kalian pilih dan mengapa kalian memilih algoritma tersebut
+   - mengapa kalian memilih algoritma sorting yang kalian pilih dan jelaskan perbandingannya antara algoritma tersebut.
+   - jelasin algoritma string matching yang kalian pilih dan jelaskan perbandingannya antara algoritma tersebut.
    - screenshot aplikasi
    - spek minimum device yang bisa menjalankan aplikasi
 
